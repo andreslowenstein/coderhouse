@@ -9,15 +9,18 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import { createTheme } from '@mui/material/styles';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import CartWidget from './CartWidget';
 
 const theme = createTheme({
     palette: {
         primary: {
             main: "#c72b23",
             contrastText: "#fefcfb"
-        }
+        },
     }
 });
+
 
 export class NavBar extends Component {
 
@@ -51,6 +54,7 @@ export class NavBar extends Component {
                                     <MenuItem value={30}>Percusión</MenuItem>
                                 </Select>
                             </FormControl>
+                            <CartWidget />
                         </Toolbar>
                     </AppBar>
                 </Box>
