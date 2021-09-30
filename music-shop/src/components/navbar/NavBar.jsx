@@ -9,7 +9,6 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import { createTheme } from '@mui/material/styles';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import CartWidget from './CartWidget';
 
 const theme = createTheme({
@@ -49,9 +48,9 @@ export class NavBar extends Component {
                                     id="select-categories"
                                     label="Browse Categories"
                                 >
-                                    <MenuItem value={10}>Instrumentos de Cuerdas</MenuItem>
-                                    <MenuItem value={20}>Instrumentos de viento</MenuItem>
-                                    <MenuItem value={30}>Percusión</MenuItem>
+                                    <MenuItem>Instrumentos de Cuerdas</MenuItem>
+                                    <MenuItem>Instrumentos de viento</MenuItem>
+                                    <MenuItem>Percusión</MenuItem>
                                 </Select>
                             </FormControl>
                             <CartWidget />
