@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Fender Stratocaster",
+        "description": "Made in USA",
+        "price": 1000,
+        "pictureUrl": "../assets../fender-stratocaster.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Casio MZX-5000",
+        "description": "Made in China",
+        "price": 600,
+        "pictureUrl": "../assets../fender-stratocaster.jpg"
+    }
+]
